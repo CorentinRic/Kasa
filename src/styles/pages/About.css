@@ -1,0 +1,27 @@
+.section__about{
+  animation: 01s about ease-out;
+}
+@keyframes about{
+  0%{opacity: 0;}
+  70%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.about__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    min-height: 284px;
+}
+
+
+@media (max-width: 600px) {
+  .mobile__banner{
+    height: 223px;
+    border-radius: 10px;
+  }
+}

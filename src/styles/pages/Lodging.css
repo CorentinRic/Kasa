@@ -1,0 +1,125 @@
+.lodging{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 850px;
+    animation: 01s lodging ease-out;
+}
+@keyframes lodging{
+    0%{opacity: 0;}
+    70%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.lodging__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.lodging__titles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.lodging__titles h1{
+    font-size: 36px;
+}
+.lodging__titles h2{
+    font-size: 18px;
+    margin-top: 4px;
+}
+.lodging__tags{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.lodging__host{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 24px;
+}
+
+.lodging__accordions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 4rem;
+}
+.lodging__accordion{
+    max-width: 582px;
+    width: 100%;
+}
+.lodging__accordion article{
+    width: 100%;
+}
+.lodging__accordion h3, .lodging__accordion p, .lodging__accordion li{
+    font-size: 18px;
+}
+
+@media (max-width: 1030px) {
+    .lodging__titles h1 {
+        font-size: 27px;
+    }
+    .lodging__titles h2 {
+        font-size: 16px;
+        margin-top: 3px;
+    }
+    .lodging__tags {
+        margin-top: 15px;
+    }
+    .lodging__accordions {
+        margin-top: 20.25px;
+    }
+    .lodging__accordion h3{
+        font-size: 14px;
+    }
+    .lodging__accordion p, .lodging__accordion li{
+        font-size: 13px;
+    }
+}
+  
+@media (max-width: 600px) {
+    .lodging{
+        max-height: 800px;
+    }
+    .lodging__container {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .lodging__tags {
+        margin-top: 10px;
+    }
+    .lodging__host {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        margin-top: 16px;
+    }
+    .lodging__titles h1 {
+        font-size: 18px;
+    }
+    .lodging__titles h2 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .lodging__accordions {
+        flex-direction: column;
+        margin-top: 16.5px;
+        gap: 30px;
+    }
+    .lodging__accordion h3{
+        font-size: 13px;
+    }
+    .lodging__accordion p, .lodging__accordion li{
+        font-size: 12px;
+    }
+}

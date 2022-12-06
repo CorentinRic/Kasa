@@ -1,0 +1,36 @@
+.host{
+    display: flex;
+    gap: 10px;
+}
+.host__names{
+    font-size: 18px;
+}
+.host__img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--color-mid-dark);
+}
+@media (max-width: 1030px){
+    .host{
+        align-items: center;
+        gap: 10.5px;
+    }
+    .host__names {
+        font-size: 15px;
+    }
+    .host__img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .host__names {
+        font-size: 12px;
+    }
+    .host__img{
+        width: 32px;
+        height: 32px;
+    }
+}

@@ -1,0 +1,118 @@
+.accordion{
+    width: 82.5%;
+    animation: 1s accordion ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes accordion{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.accordion__title{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    height: 47px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.accordion__title:hover{
+    -webkit-box-shadow: inset 15px 7px 50px 17px #CA4C4C; 
+    box-shadow: inset 15px 7px 50px 17px #CA4C4C;
+}
+.accordion__title-h3{
+    font-size: 24px;
+    margin-left: 18.08px;
+}
+.accordion__icon{
+    position: absolute;
+    right: 16.86px;
+    font-size: 23px;
+    transition: var(--transition);
+}
+.activeCollapse .accordion__icon {
+    transform: rotate3d(202, 0, 0, 180deg);
+}
+
+.accordion__content{
+    background-color: var(--color-mid-light);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -9px;
+    opacity: 0;
+    height: 0px;
+    transition: all 0.2s cubic-bezier(0.600, -0.280, 0.735, 0.045);
+    position: relative;
+}
+.activeCollapse .accordion__content{
+    height: 100%;
+    opacity: 1;
+    transition: all 0.35s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+}
+.accordion__content-p{
+    font-size: 24px;
+    padding-top: 36px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto;
+    transition: all 0.2s ease-in;
+}
+.activeCollapse .accordion__content-p {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.1s ease-in;
+  }
+.accordion__list{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 27px;
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+@media (max-width: 1030px) {
+    .accordion__title-h3 {
+        font-size: 19px;
+        margin-left: 14px;
+    }
+    .accordion__content-p {
+        font-size: 18px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+@media (max-width: 600px) {
+    .accordion{
+        width: 100%;
+    }
+    .accordion__title{
+        height: 30px;
+    }
+    .accordion__title-h3{
+        font-size: 13px;
+        margin-left: 11.51px;
+    }
+    .accordion__content-p{
+        font-size: 12px;
+        padding-left: 11.51px;
+        padding-right: 11.51px;
+        padding-top: 23.08px;
+    }
+    .accordion__icon{
+        right: 10.26px;
+        font-size: 15px;
+    }
+}

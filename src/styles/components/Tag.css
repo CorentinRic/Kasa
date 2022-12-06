@@ -1,0 +1,38 @@
+.tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    min-width: 115px;
+    height: 25px;
+}
+.tag__name{
+    color: var(--color-light);
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (max-width: 1030px){
+    .tag{
+        min-width: 99.5px;
+        height: 21.5px;
+        border-radius: 7.5px;
+    }
+    .tag__name{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px){
+    .tag{
+        min-width: 84px;
+        height: 18px;
+        border-radius: 5px;
+    }
+    .tag__name{
+        font-size: 10px;
+    }
+}
