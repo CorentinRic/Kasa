@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Kasa-Openclassrooms/static/css/main.95bf9d94.css",
+    "main.js": "/Kasa-Openclassrooms/static/js/main.81622bd8.js",
+    "static/media/banner-about.jpg": "/Kasa-Openclassrooms/static/media/banner-about.96ba68b2b24837424fa9.jpg",
+    "static/media/banner.jpg": "/Kasa-Openclassrooms/static/media/banner.053687a54587bf187cfc.jpg",
+    "static/media/banner-about-mobile.jpg": "/Kasa-Openclassrooms/static/media/banner-about-mobile.e2902d7ad3a2d4679d13.jpg",
+    "static/media/banner-mobile.jpg": "/Kasa-Openclassrooms/static/media/banner-mobile.5fe10c7a1bb8bb9f2134.jpg",
+    "index.html": "/Kasa-Openclassrooms/index.html",
+    "static/media/arrowRight.svg": "/Kasa-Openclassrooms/static/media/arrowRight.9cf70084dd336d1aecf5373b9e72889d.svg",
+    "static/media/arrowLeft.svg": "/Kasa-Openclassrooms/static/media/arrowLeft.36d5d33e7a670302642c575bdf49cbed.svg",
+    "static/media/star-light.svg": "/Kasa-Openclassrooms/static/media/star-light.06dccca447400012db124c595a41e219.svg",
+    "static/media/star-primary.svg": "/Kasa-Openclassrooms/static/media/star-primary.325cf1d54d109e062e0d0468f6412f00.svg",
+    "main.95bf9d94.css.map": "/Kasa-Openclassrooms/static/css/main.95bf9d94.css.map",
+    "main.81622bd8.js.map": "/Kasa-Openclassrooms/static/js/main.81622bd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95bf9d94.css",
+    "static/js/main.81622bd8.js"
+  ]
+}
