@@ -3,8 +3,8 @@ import './../styles/pages/Home.css'
 import Card from "../components/Card";
 import lodgings from './../datas/ListLogements.json'
 import Banner from "../components/Banner";
-import bannerImg from './../assets/images/banner.jpg'
-import bannerImgMobile from '../assets/images/banner-mobile.jpg'
+import bannerImg from './../assets/images/banner.avif'
+import bannerImgMobile from '../assets/images/banner-mobile.avif'
 import { Link } from "react-router-dom";
 
 

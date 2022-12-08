@@ -3,8 +3,8 @@ import '../styles/pages/About.css'
 import Accordion from '../components/Accordion';
 import products from './../datas/DataAbout.json'
 import Banner from '../components/Banner';
-import bannerImg from '../assets/images/banner-about.jpg'
-import bannerImgMobile from '../assets/images/banner-about-mobile.jpg'
+import bannerImg from '../assets/images/banner-about.avif'
+import bannerImgMobile from '../assets/images/banner-about-mobile.avif'
 
 const About = () => {
   return (
