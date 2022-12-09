@@ -9,8 +9,8 @@ const Host = ({ host }) => {
     return (
         <div className="host">
             <div className="host__names">
-                <h4 className="host__firstname">{name.trim()}</h4>
-                <h4 className="host__lastname">{lastname.trim()}</h4>
+                <p className="host__firstname">{name.trim()}</p>
+                <p className="host__lastname">{lastname.trim()}</p>
             </div>
             <img src={host.picture} alt="Photographie de l'hôte." className="host__img" />
         </div>

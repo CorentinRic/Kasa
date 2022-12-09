@@ -15,7 +15,7 @@ const Accordion = ({ content, title }) => {
 
         <article className={`accordion ${activeCollapse && "activeCollapse"}`}>
             <div className="accordion__title" onClick={handleToggle}>
-                <h3 className='accordion__title-h3'>{title}</h3>
+                <h2 className='accordion__title-h2'>{title}</h2>
                 <span className='accordion__icon'><IoIosArrowUp /></span>
             </div>
             <div className="accordion__content">
