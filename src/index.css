@@ -64,22 +64,6 @@ a {
   transition: var(--transition);
 }
 
-/*Component TAG*/
-.btn {
-  background-color: var(--color-primary);
-  width: 115px;
-  height: 25px;
-  border-radius: 10px;
-  font-size: 14px;
-  text-align: center;
-  transition: var(--transition);
-}
-.btn:hover{
-  background-color: var(--color-mid-light);
-  border: 2px solid var(--color-primary);
-  color: var(--color-primary);
-}
-
 
 @media (max-width: 1030px) {
   main{
