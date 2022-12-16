@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom'
-import Router from './utils/Router';
+import Router from './router/Router'
 import ScrollToTop from './utils/ScrollToTop'
 import Header from './components/Header';
 import Footer from './components/Footer';
